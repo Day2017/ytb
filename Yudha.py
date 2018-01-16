@@ -943,7 +943,7 @@ def bot(op):
                 if wait["tag"] == True: md+="▩ Tᴀɢ → ✓\n\nPᴏᴡᴇʀᴇᴅ ʙʏ:\n✰ DΔY βΟT ✰" 
                 else:md+="▩ Tᴀɢ → ✗\n\nPᴏᴡᴇʀᴇᴅ ʙʏ:\n✰ DΔY βΟT ✰" 
                 cl.sendText(msg.to,md)
-                cl.sendText(msg.to,"ɪᴅ ʟɪɴᴇ: line://ti/p/~j.days\n\n 😁")
+                #cl.sendText(msg.to,"ɪᴅ ʟɪɴᴇ: line://ti/p/~j.days\n\n 😁")
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': admin}
                 #cl.sendMessage(msg)
@@ -1644,7 +1644,7 @@ def bot(op):
                     else:
                         cl.sendText(msg.to, "Out Of Range!")
 
-            elif msg.text in ["Yud sp","ysp"]:
+            elif msg.text in ["Day sp","Dsp","sp","Sp"]:
                 start = time.time()
                 cl.sendText(msg.to, "Harap Bersabar, Modal Termux Doang...")
                 elapsed_time = time.time() - start
@@ -2754,6 +2754,41 @@ def autolike():
 thread2 = threading.Thread(target=autolike)
 thread2.daemon = True
 thread2.start()
+ # ----------------- NOTIFED MEMBER OUT GROUP
+        if op.type == 15:
+            group = cl.getGroup(op.param1)
+            cb = Message()
+            cb.to = op.param1
+            cb.text = cl.getContact(op.param2).displayName + "  ออกจากกลุ่มแล้ว 😕" + group.name
+            cl.sendMessage(cb)
+
+        if op.type == 15:
+            if op.param2 in Bots:
+                return
+            cl.sendText(op.param1,cl.getContact(op.param2).displayName +
+"\n✨แล้วพบกันใหม่นะครับ✨\n")
+            print ("MEMBER HAS LEFT THE GROUP")
+# ----------------- NOTIFED MEMBER JOIN GROUP
+        if op.type == 17:
+            if op.param2 in Bots:
+                return
+            cl.sendText(op.param1,cl.getContact(op.param2).displayName +
+"\n💕ยินดีต้อนรับครับ💕\n
+💘แนะนำตัวหน่อยจ้า💘")
+            print ("MEMBER HAS JOIN THE GROUP")
+        if op.type == 17:
+            group = cl.getGroup(op.param1)
+            cb = Message()
+            cb.to = op.param1
+            cb.text = cl.getContact(op.param2).displayName + "  เข้าร่วมกลุ่ม  😊" + group.name + "ยินดีต้อนรับจ้า😊"
+            cl.sendMessage(cb)
+#------------------ NOTIFED MEMBER JOIN GROUP
+        if op.type == 19:
+            if op.param2 in Bots:
+                return
+            cl.sendText(op.param1,cl.getContact(op.param2).displayName + " 😨กรรม...ค่อยๆคุยกันน๊าาๅๅ😅")
+            print "Anggota Grup Di Kick"
+#-----------------NOTIFED MEMBER KICKOUT GROUP
 #------------------------------------------------------------------------------------------#
 while True:
     try:
