@@ -2766,7 +2766,8 @@ thread2.start()
             if op.param2 in Bots:
                 return
             cl.sendText(op.param1,cl.getContact(op.param2).displayName +
-"\n✨แล้วพบกันใหม่นะครับ✨\n")
+"\n✨แล้วพบกันใหม่นะครับ✨\n
+😘ขอให้โชคดีน๊าาาๅๅ~😍")
             print ("MEMBER HAS LEFT THE GROUP")
 # ----------------- NOTIFED MEMBER JOIN GROUP
         if op.type == 17:
