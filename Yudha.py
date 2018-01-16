@@ -2759,9 +2759,8 @@ thread2.start()
             group = cl.getGroup(op.param1)
             cb = Message()
             cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName + "  ออกจากกลุ่มแล้ว 😕" + group.name
+            cb.text = cl.getContact(op.param2).displayName + "out group" + group.name
             cl.sendMessage(cb)
-
         if op.type == 15:
             if op.param2 in Bots:
                 return
@@ -2781,7 +2780,7 @@ thread2.start()
             group = cl.getGroup(op.param1)
             cb = Message()
             cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName + "  เข้าร่วมกลุ่ม  😊" + group.name + "ยินดีต้อนรับจ้า😊"
+            cb.text = cl.getContact(op.param2).displayName + "  เข้าร่วมกลุ่ม  😊" + group.name + "ยินดีต้อนรับจ้า😊")
             cl.sendMessage(cb)
 #------------------ NOTIFED MEMBER JOIN GROUP
         if op.type == 19:
