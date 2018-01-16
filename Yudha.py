@@ -26,12 +26,12 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""╔════════════
-║     ✰ ΥυδHΔ βΟτ ✰
+║     ✰ DΔY βΟT ✰
 ╠════════════
-║ ᴏᴡɴᴇʀ : ᴍ.ᴡɪʀᴀ ʏᴜᴅʜᴀ ᴘ
+║ ᴏᴡɴᴇʀ : ID: J.DAYS
 ╠════════════
-║     - ᴄᴏᴍᴍᴀɴᴅ ɪɴ ɢʀᴏᴜᴘ -
-║╔═══════════
+║     -♠️ คำสั่งในกลุ่ม ♠️-
+║╔
 ║╠❂➣ʜᴀɪ
 ║╠❂➣ᴄɪᴅᴜᴋ
 ║╠❂➣ɪɴᴛɪᴘ
@@ -44,9 +44,9 @@ helpMessage ="""╔════════════
 ║╠❂➣.ʀᴛ
 ║╠❂➣ᴍɪᴅ
 ║╠❂➣ᴍᴇ
-╠════════════
-║   - ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴀᴅᴍɪɴ -
-╠════════════
+╠═══════════════════
+║   -♠️ คำสั่งสำหรับ แอดมิน ♠️-
+╠═══════════════════
 ║╠❂➣  Gʟɪsᴛ
 ║╠❂➣  Fʟɪsᴛ 
 ║╠❂➣  Cᴀɴᴄᴇʟ
@@ -71,29 +71,29 @@ helpMessage ="""╔════════════
 ║╠❂➣  Iɴғᴏ ɢʀᴜᴘ
 ║╠❂➣  Cʟᴇᴀʀ ɢʀᴜᴘ
 ╠════════════
-║   - ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴋɪᴄᴋᴇʀ -
+║   -♠️ คำสั่งสำหรับ ᴋɪᴄᴋᴇʀ ♠️-
 ╠════════════
 ║╠❂➣  Nᴜᴋᴇ
 ║╠❂➣  ᴛᴀᴍᴘᴏʟ sᴇᴍᴜᴀ
 ║╠❂➣  ᴛᴀᴍᴘᴏʟ @
 ║╠❂➣  ᴛᴀᴍᴘᴏʟ:
 ║╠❂➣  ᴛᴀᴍᴘᴏʟ
-╠════════════
-║     - ᴄᴏᴍᴍᴀɴᴅ ᴜᴛɪʟɪᴛʏ -
-╠════════════
+╠═══════════════════
+║     -♠️ คำสั่งเพิ่มเติม ♠️-
+╠═══════════════════
 ║╠❂➣  Bᴄᴄ
 ║╠❂➣  Bᴄɢ
-║╠❂➣  Sᴘᴀᴍ ᴏɴ/ᴏғғ 「ᴊᴜᴍʟᴀʜ」「 ᴛᴇxᴛ」
+║╠❂➣  Sᴘᴀᴍ ᴏɴ/ᴏғғ 「 ᴛᴇxᴛ」
 ║╠❂➣  Uɴɪ
 ║╠❂➣  sᴘ
 ║╠❂➣  Mʏɴᴀᴍᴇ
 ║╠❂➣  Mʏʙɪᴏ
 ║╠❂➣  Mʏᴄᴏᴘʏ @
 ║╠❂➣  Mʏʙᴀᴄᴋᴜᴘ
-║╠❂➣  ŤĽ: <text>
-╠════════════
-║   - ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ sᴇᴛᴛɪɴɢ -  
-╠════════════
+║╠❂➣  TL: <text>
+╠═══════════════════
+║   -♠️ คำสั่งสำหรับ ตั้งค่า ♠️-  
+╠═══════════════════
 ║╠❂➣[Lɪᴋᴇ:ᴏɴ/ᴏғғ]     
 ║╠❂➣[Aᴅᴅ ᴏɴ/ᴏғғ] 	 
 ║╠❂➣[Aᴜᴛᴏ ᴊᴏɪɴ ᴏɴ/ᴏғғ] 	   
@@ -107,9 +107,9 @@ helpMessage ="""╔════════════
 ║╠❂➣[Cᴏᴍᴍᴇɴᴛ sᴇᴛ:]	
 ║╠❂➣[Pᴇsᴀɴ ᴀᴅᴅ:]	
 ║╠❂➣[Pᴇsᴀɴ ᴀᴅᴅ ᴄᴇᴋ]
-╠════════════
-║  - ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴘʀᴏᴛᴇᴄᴛ - 
-╠════════════
+╠═════════════════════
+║  -♠️ คำสั่งสำหรับ ป้องกันกลุ่ม ♠️- 
+╠═════════════════════
 ║╠❂➣[Aʟʟᴘʀᴏᴛᴇᴄᴛ ᴏɴ/ᴏғғ]      
 ║╠❂➣[ᴘʀᴏᴛᴇᴄᴛ ᴏɴ/ᴏғғ]			   
 ║╠❂➣[ǫʀᴘʀᴏᴛᴇᴄᴛ ᴏɴ/ᴏғғ]			   
@@ -118,15 +118,15 @@ helpMessage ="""╔════════════
 ║╠❂➣[Aᴅᴅ/Rᴇᴍᴏᴠᴇ sᴛᴀғғ @]	  
 ║╠❂➣[Sᴛᴀғғʟɪsᴛ]
 
- [👤] ᴄᴏɴᴛᴀᴄᴛ ᴘᴇʀsᴏɴᴀʟ ⬇️
- line.me/ti/p/~@ikj9968f
- line.me/ti/p/~iniyud
+ [👤] ติดต่อ ผู้ควบคุม ⬇️
+ line.me/ti/p/~j.days
+ line.me/ti/p/~j.days2
 """
 KAC=[cl]
 mid = cl.getProfile().mid
-Bots = [mid,"uecc57cb55f480ee2a45d81434a9b864d"]
-admsa = "uecc57cb55f480ee2a45d81434a9b864d"
-admin = "uecc57cb55f480ee2a45d81434a9b864d"
+Bots = [mid,"u82b4b7e035c2a997b2ff644e3a8559c3"]
+admsa = "u16c87102beec3a162c9098c765519630"
+admin = "u16c87102beec3a162c9098c765519630"
 
 wait = {
     'contact':False,
@@ -135,9 +135,9 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'message':"👉😊☆º°˚˚☆✰ ΥυδHΔ βΟτ ✰☆º°˚˚☆（＾ω＾）\n\nby Yudha👈 »»» http://line.me/ti/p/~@ikj9968f «««\n»»» http://line.me/ti/p/~iniyud ««« ",
+    'message':"👉😊☆º°˚˚☆✰ DΔY βΟT ✰☆º°˚˚☆（＾ω＾）\n\nBY DAY👈 »»» http://line.me/ti/p/~j.days «««\n»»» http://line.me/ti/p/~j.days2 ««« ",
     "lang":"JP",
-    "comment":"Aᴜᴛᴏ Lɪᴋᴇ ʙʏ ✰ΥυδHΔ βΟτ✰\n\nline.me/ti/p/~@ikj9968f\nline.me/ti/p/~iniyud",
+    "comment":"Aᴜᴛᴏ Lɪᴋᴇ ʙʏ ✰ DΔY βΟT ✰\n\nline.me/ti/p/~j.days\nline.me/ti/p/~j.days2",
     "commentOn":False,
     "likeOn":False,
     "commentBlack":{},
@@ -236,7 +236,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "uecc57cb55f480ee2a45d81434a9b864d":
+                if msg.from_ == "u82b4b7e035c2a997b2ff644e3a8559c3":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
@@ -280,7 +280,7 @@ def bot(op):
                                  try:
                                      cl.findAndAddContactsByMid(target)
                                      cl.inviteIntoGroup(msg.to,[target])
-                                     random.choice(KAC).sendText(msg.to,"Sukses menginvite gembel ini😆: \n➡ " + _name)
+                                     random.choice(KAC).sendText(msg.to," 😆: \n➡ " + _name)
                                      wait2["ricoinvite"] = False
                                      break                              
                                  except:             
@@ -290,20 +290,20 @@ def bot(op):
             if msg.contentType == 13:
                 if wait["wblack"] == True:
                     if msg.contentMetadata["mid"] in wait["commentBlack"]:
-                        cl.sendText(msg.to,"sudah masuk daftar hitam👈")
+                        cl.sendText(msg.to,"อยู่ใน บช.ดำแล้ว !!!")
                         wait["wblack"] = False
                     else:
                         wait["commentBlack"][msg.contentMetadata["mid"]] = True
                         wait["wblack"] = False
-                        cl.sendText(msg.to,"Itu tidak berkomentar👈")
+                        cl.sendText(msg.to,"ไม่พบข้อมูล...")
                 elif wait["dblack"] == True:
                     if msg.contentMetadata["mid"] in wait["commentBlack"]:
                         del wait["commentBlack"][msg.contentMetadata["mid"]]
-                        cl.sendText(msg.to,"Done")
+                        cl.sendText(msg.to,"สำเร็จ...!!!")
                         wait["dblack"] = False
                     else:
                         wait["dblack"] = False
-                        cl.sendText(msg.to,"Tidak ada dalam daftar hitam👈")
+                        cl.sendText(msg.to,"ไม่ได้อยู่ใน บช.ดำ...!!!")
                 elif wait["wblacklist"] == True:
                     if msg.contentMetadata["mid"] in wait["blacklist"]:
                         cl.sendText(msg.to,"sudah masuk daftar hitam")
@@ -311,15 +311,15 @@ def bot(op):
                     else:
                         wait["blacklist"][msg.contentMetadata["mid"]] = True
                         wait["wblacklist"] = False
-                        cl.sendText(msg.to,"Done👈")
+                        cl.sendText(msg.to,"สำเร็จ...!!!")
                 elif wait["dblacklist"] == True:
                     if msg.contentMetadata["mid"] in wait["blacklist"]:
                         del wait["blacklist"][msg.contentMetadata["mid"]]
-                        cl.sendText(msg.to,"Done👈")
+                        cl.sendText(msg.to,"สำเร็จ...!!!")
                         wait["dblacklist"] = False
                     else:
                         wait["dblacklist"] = False
-                        cl.sendText(msg.to,"Done👈")
+                        cl.sendText(msg.to,"สำเร็จ...!!!")
                 elif wait["contact"] == True:
                     msg.contentType = 0
                     cl.sendText(msg.to,msg.contentMetadata["mid"])
@@ -436,11 +436,11 @@ def bot(op):
                     if X.invitee is not None:
                         gInviMids = [contact.mid for contact in X.invitee]
                         cl.cancelGroupInvitation(msg.to, gInviMids)
-                        cl.sendText(msg.to,"Sukses Mengancel Undangan")
+                        cl.sendText(msg.to,"ลบค้างเชิญสำเร็จ...!!!")
                     else:
-                        cl.sendText(msg.to,"No one is inviting")
+                        cl.sendText(msg.to,"ไม่มีสมาชิกที่ค้างเชิญ...!!!")
                 else:
-                    cl.sendText(msg.to,"Can not be used outside the group")
+                    cl.sendText(msg.to,"คำสั่งนี้ใช้ได้เฉพาะในกลุ่ม...!!!")
 #--------------------------------------------------------
 
             elif "Contact" == msg.text:
@@ -477,35 +477,35 @@ def bot(op):
             if "@"+cl.getProfile().displayName in msg.text:
                 if wait["tag"] == True:
                     Tanya = msg.text.replace("@"+cl.getProfile().displayName,"")
-                    Jawab = (cl.getProfile().displayName+" apaan?")
+                    Jawab = (cl.getProfile().displayName+" หืม...!!!")
                     Jawaban = (Jawab)
                 cl.sendText(msg.to,Jawaban)
 
             elif msg.text in ["Tag on"]:
                 if wait["tag"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"already on")
+                        cl.sendText(msg.to,"เปิดสำเร็จ...!!!")
                     else:
-                        cl.sendText(msg.to,"turned to on")
+                        cl.sendText(msg.to,"เปิดแล้ว...!!!")
                 else:
                     wait["tag"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"turned to on")
+                        cl.sendText(msg.to,"เปิดแล้ว...!!!")
                     else:
-                        cl.sendText(msg.to,"already on")
+                        cl.sendText(msg.to,"เปิดสำเร็จ...!!!")
                         
             elif msg.text in ["Tag off"]:
                 if wait["tag"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"already off")
+                        cl.sendText(msg.to,"ปิดสำเร็จ...!!!")
                     else:
-                        cl.sendText(msg.to,"turned to off")
+                        cl.sendText(msg.to,"ฉันปิดแล้ว...!!!")
                 else:
                     wait["tag"] = False
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"turned to off")
+                        cl.sendText(msg.to,"ปิด...!!!")
                     else:
-                        cl.sendText(msg.to,"already off")
+                        cl.sendText(msg.to,"ปิดสำเร็จ...!!!")
                         
             elif "Allname: " in msg.text:
                 string = msg.text.replace("Allname: ","")
@@ -913,7 +913,7 @@ def bot(op):
                         cl.sendText(msg.to,"Off👈")
                     else:
                         cl.sendText(msg.to,"Off👈")
-            elif msg.text.lower() == 'Yud set':
+            elif msg.text.lower() == 'Day set':
                 md = ""
                 if wait["contact"] == True: md+="Dᴀғᴛᴀʀ Sᴇᴛᴛɪɴɢ\n\n▩ Cᴏɴᴛᴀᴄᴛ → ✓\n"
                 else: md+="Dᴀғᴛᴀʀ Sᴇᴛᴛɪɴɢ\n\n▩ Cᴏɴᴛᴀᴄᴛ → ✗\n"
@@ -939,10 +939,10 @@ def bot(op):
                 else:md+="▩ Cᴀɴᴄᴇʟᴘʀᴏᴛᴇᴄᴛ → ✗\n"
                 if wait["likeOn"] == True: md+="▩ Aᴜᴛᴏ ʟɪᴋᴇ → ✓\n"
                 else:md+="▩ Aᴜᴛᴏ ʟɪᴋᴇ → ✗\n" 
-                if wait["tag"] == True: md+="▩ Tᴀɢ → ✓\n\nPᴏᴡᴇʀᴇᴅ ʙʏ:\n✰ ΥυδHΔ βΟτ ✰" 
-                else:md+="▩ Tᴀɢ → ✗\n\nPᴏᴡᴇʀᴇᴅ ʙʏ:\n✰ ΥυδHΔ βΟτ ✰" 
+                if wait["tag"] == True: md+="▩ Tᴀɢ → ✓\n\nPᴏᴡᴇʀᴇᴅ ʙʏ:\n✰ DΔY βΟT ✰" 
+                else:md+="▩ Tᴀɢ → ✗\n\nPᴏᴡᴇʀᴇᴅ ʙʏ:\n✰ DΔY βΟT ✰" 
                 cl.sendText(msg.to,md)
-                #cl.sendText(msg.to,"ɪᴅ ʟɪɴᴇ: line://ti/p/~danrfq\n\nʙɪʟᴀ ᴀᴅᴀ ᴘᴇʀʟᴜ ᴘᴄ ᴋᴏɴᴛᴀᴋ ᴅɪʙᴀᴡᴀʜ 😁")
+                cl.sendText(msg.to,"ɪᴅ ʟɪɴᴇ: line://ti/p/~j.days\n\n 😁")
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': admin}
                 #cl.sendMessage(msg)
@@ -950,44 +950,44 @@ def bot(op):
             elif msg.text in ["Like:on"]:
                 if wait["likeOn"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Done。")
+                        cl.sendText(msg.to,"สำเร็จ...!!!")
                 else:
                     wait["likeOn"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Already。")
+                        cl.sendText(msg.to,"เปิดแล้ว...!!!")
             elif msg.text in ["いいね:オフ","Like:off"]:
                 if wait["likeOn"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Done。")
+                        cl.sendText(msg.to,"สำเร็จ...!!!")
                 else:
                     wait["likeOn"] = False
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Already。")
+                        cl.sendText(msg.to,"เปิดแล้ว...!!!")
                         
             elif msg.text in ["Add on","Add auto on"]:
                 if wait["autoAdd"] == True:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Already On")
+                        cl.sendText(msg.to,"เปิดแล้ว...!!!")
                     else:
-                        cl.sendText(msg.to,"Already On👈")
+                        cl.sendText(msg.to,"เปิดแล้ว...!!!")
                 else:
                     wait["autoAdd"] = True
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Already On👈")
+                        cl.sendText(msg.to,"เปิดแล้ว...!!!")
                     else:
-                        cl.sendText(msg.to,"Already On👈")
+                        cl.sendText(msg.to,"เปิดแล้ว...!!!")
             elif msg.text in ["Add off","Add auto off"]:
                 if wait["autoAdd"] == False:
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Hal ini sudah off👈")
+                        cl.sendText(msg.to,"ปิดแล้ว...!!!")
                     else:
-                        cl.sendText(msg.to,"Hal ini sudah dimatikan👈")
+                        cl.sendText(msg.to,"ปิดแล้ว...!!!")
                 else:
                     wait["autoAdd"] = False
                     if wait["lang"] == "JP":
-                        cl.sendText(msg.to,"Already Off👈")
+                        cl.sendText(msg.to,"ปิดแล้ว...!!!")
                     else:
-                        cl.sendText(msg.to,"Untuk mengaktifkan-off👈")
+                        cl.sendText(msg.to,"ปิดแล้ว...!!!")
             elif "Message set: " in msg.text:
                 wait["message"] = msg.text.replace("Message set: ","")
                 cl.sendText(msg.to,"We changed the message👈")
@@ -1170,13 +1170,13 @@ def bot(op):
                         for target in targets:
                             try:
                                 staff.append(target)
-                                cl.sendText(msg.to,"Added to the staff list")
+                                cl.sendText(msg.to,"เพิ่มไปยังรายชื่อ Staff")
                             except:
                                 pass
                     print "[Command]Staff add executed"
                 else:
-                    cl.sendText(msg.to,"Command denied.")
-                    cl.sendText(msg.to,"Admin permission required.")
+                    cl.sendText(msg.to,"คำสั่งถูกปฎิเสธ...!!!")
+                    cl.sendText(msg.to,"กรุณาติดต่อผู้ดูแลระบบ...!!!")
 
             elif "Remove staff @" in msg.text:
                 if msg.from_ in admin:
@@ -1194,19 +1194,19 @@ def bot(op):
                         for target in targets:
                             try:
                                 staff.remove(target)
-                                cl.sendText(msg.to,"Removed to the staff list")
+                                cl.sendText(msg.to,"ลบออกจากรายชื่อ Staff")
                             except:
                                 pass
                     print "[Command]Staff remove executed"
                 else:
-                    cl.sendText(msg.to,"Command denied.")
-                    cl.sendText(msg.to,"Admin permission required.")
+                    cl.sendText(msg.to,"คำสั่งถูกปฎิเสธ...!!!")
+                    cl.sendText(msg.to,"กรุณาติดต่อผู้ดูแลระบบ...!!!")
 
             elif msg.text in ["Stafflist","stafflist"]:
                 if staff == []:
-                    cl.sendText(msg.to,"The stafflist is empty")
+                    cl.sendText(msg.to,"ไม่มีรายชื่อของ Staff...!!!")
                 else:
-                    cl.sendText(msg.to,"Staff list: ")
+                    cl.sendText(msg.to,"รายชื่อ Staff: ")
                     mc = ""
                     for mi_d in staff:
                         mc += "->" +cl.getContact(mi_d).displayName + "\n"
@@ -1308,7 +1308,7 @@ def bot(op):
                     if gid is not None:
                         cl.sendText(msg.to,h + "\n|[Total Groups]| : " + str(total))
                     else:
-                        cl.sendText(msg.to,"Tidak ada grup saat ini")
+                        cl.sendText(msg.to,".....?......")
                     ginv = cl.getGroupIdsInvited()
                     j = "===[List Groups Invited]==="
                     totals = str(len(ginv))
