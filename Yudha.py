@@ -131,8 +131,8 @@ admin = "u16c87102beec3a162c9098c765519630"
 
 wait = {
     'contact':False,
-    'autoJoin':True,
-    'autoCancel':{"on":False,"members":20},
+    'autoJoin':False,
+    'autoCancel':{"on":True,"members":20},
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
@@ -153,7 +153,7 @@ wait = {
     "cancelprotect":False,
     "inviteprotect":False,
     "linkprotect":False,
-    "tag":True,
+    "tag":False,
 }
 
 wait2 = {
