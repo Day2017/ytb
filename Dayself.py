@@ -194,7 +194,8 @@ def cms(string, commands): #/XXX, >XXX, ;XXX, ^XXX, %XXX, $XXX...
 def waktu(secs):
     mins, secs = divmod(secs,60)
     hours, mins = divmod(mins,60)
-    return '%02d Jam %02d Menit %02d Detik 😉' % (hours, mins, secs)
+    days, hours = divmod(hours,24)
+    return '▶️▶️%02d วัน\n▶️▶️%02d ชั่วโมง\n▶️▶️%02d นาที\n▶️▶️%02d วินาที ' % (days, hours, mins, secs)
     
 def bot(op):
     try:
